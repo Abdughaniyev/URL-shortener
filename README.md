@@ -30,11 +30,14 @@ Setup Instructions:
 
 3. Create a `.env` file and add:
 
-   PORT=3000
-   DATABASE=mongodb://localhost:27017/url_shortener
-   JWT_SECRET=your_jwt_secret
-   REDIS_HOST=localhost
-   REDIS_PORT=6379
+PORT=3000 
+BASE_URL=http://localhost:3000 
+ACCESSTOKEN=accessthetoken 
+REFRESHTOKEN=refreshthetoken 
+DATABASE= 
+REDIS_HOST=localhost 
+REDIS_PORT=6379 
+REDIS_TTL=86400 
 
 4. Start the server:
 
